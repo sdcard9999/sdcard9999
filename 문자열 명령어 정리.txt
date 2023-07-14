@@ -1,0 +1,17 @@
+strlen() 문자열 길이을 알아낼 때 사용
+char str[] = "C언어";
+printf("문자열 길이는",strlen(str));
+
+strcat() strncat()
+하나의 문자열에 다른 문자열을 연결해주는 함수
+
+strcpy() strncpy()
+문자열을 복사하는 함수
+#include <string.h>
+
+char *strcpy(char * restrict s1, const char * restrict s2);  
+
+
+strcmp() strncmp()
+문자열의 내용을 비교
+
